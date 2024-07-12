@@ -40,3 +40,38 @@ Azure PowerShell is a shell with which developers, DevOps, and IT professionals 
 
 The routine setup, teardown, and maintenance of a single resource or multiple connected resources.
 The deployment of an entire infrastructure, which might contain dozens or hundreds of resources, from imperative code.
+- While Azure PowerShell uses PowerShell commands, the Azure CLI uses Bash commands.
+
+- Azure provides multiple tools for managing your environment, including the:
+Azure portal
+Azure PowerShell
+Azure Command Line Interface (CLI)
+
+Currently, Azure Arc allows you to manage the following resource types hosted outside of Azure:
+
+Servers
+Kubernetes clusters
+Azure data services
+SQL Server
+Virtual machines (preview)
+With Azure Resource Manager, you can:
+
+Manage your infrastructure through declarative templates rather than scripts. A Resource Manager template is a JSON file that defines what you want to deploy to Azure.
+Deploy, manage, and monitor all the resources for your solution as a group, rather than handling these resources individually.
+Re-deploy your solution throughout the development life-cycle and have confidence your resources are deployed in a consistent state.
+Define the dependencies between resources, so they're deployed in the correct order.
+Apply access control to all services because RBAC is natively integrated into the management platform.
+Apply tags to resources to logically organize all the resources in your subscription.
+Clarify your organization's billing by viewing costs for a group of resources that share the same tag.
+
+Infrastructure as code is a concept where you manage your infrastructure as lines of code. At an introductory level, it's things like using Azure Cloud Shell, Azure PowerShell, or the Azure CLI to manage and configure your resources.
+
+ ARM templates and Bicep are two examples of using infrastructure as code with the Azure Resource Manager to maintain your environment.
+
+ Benefits of using ARM templates 
+ - declaratives syntax : means you declare what you to deploy but dont need to write programming commands and sequence to deploy resources
+ - repeatable results: repeatly deploy your infrassture throuhout thr development lifecycle.
+ - orchestration: you deploy the template through one commend, rather than through multiple imperative commands . deployements occure faster
+ - Modular Files:break templates into smaller , resuable components and link them together at deployment time.
+ - Extensibilitywith deplyment scripts you can add powershell or Bash scripts to your templates,
+    Bicep
