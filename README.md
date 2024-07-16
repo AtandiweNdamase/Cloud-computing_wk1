@@ -1,17 +1,17 @@
 # Cloud-computing_wk1
-Cloud computing is the delivery computing services over the internet. such as IT infrastructures , virtual machinnes,storage ,databases and networking.Cloud services also expand to IOT and macine learning and AI
+Cloud computing is the delivery computing services over the internet. such as IT infrastructures , virtual machinnes,storage ,databases and networking.Cloud services also expand to IOT and machine learning and AI
 Compute power - how much processing your computer can do.eg RAM
 Storage - volume of data YOU CAN STORE ON YOUR COMPUTER.
 cloud computing - reqaust more storage , backup and prossessing power
 SLA - service level agreements - the availiablity of the service provided 
 99% uptime - availablity means the serive can be down  available 432min/month - 10min per week. 
-99.9 % uptime - availabilty means the service can hae a downtime of 43.2 min/month per week.
+99.9 % uptime - availabilty means the service can have a downtime of 43.2 min/month per week.
 Scaling generally comes in two varieties vertical and horizontal . Vertical - increasing and decreasing capabilities of resources. Horizontal scaling is adding or subtracting the number of resouces.
 Vertical Scaling 
-with vertical scaling , if you were developing an app and you needed nore processing power, scalw upby putting more CPUs or RAM.
+with vertical scaling , if you were developing an app and you needed nore processing power, scale up by putting more CPUs or RAM.
 Reliablility - is the ability of a system to recover from failures and continue to function.
 Cloud-based auditing helps flag any resource that’s out of compliance with your corporate standards and provides mitigation strategies.
- If you want patches and maintenance taken care of automatically, platform as a service or software as a service deployments may be the best cloud strategies for you.
+If you want patches and maintenance taken care of automatically, platform as a service or software as a service deployments may be the best cloud strategies for you.
  Management in the cloud :
  through a web portal 
  using command lne interface
@@ -74,4 +74,8 @@ Infrastructure as code is a concept where you manage your infrastructure as line
  - orchestration: you deploy the template through one commend, rather than through multiple imperative commands . deployements occure faster
  - Modular Files:break templates into smaller , resuable components and link them together at deployment time.
  - Extensibilitywith deplyment scripts you can add powershell or Bash scripts to your templates,
-    Bicep
+   Bicep
+Describe Azure Service Health
+- Azure status:broad picture of Azure globally.informs of service outages in azure on the azure page.
+- Service Health focuses on the azure services and regions youre using.
+- Resource Health :is tailored view of ypur actual azure serviesjk,j;fgc
