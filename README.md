@@ -79,3 +79,39 @@ Describe Azure Service Health
 - Azure status:broad picture of Azure globally.informs of service outages in azure on the azure page.
 - Service Health focuses on the azure services and regions youre using.
 - Resource Health :is tailored view of ypur actual azure serviesjk,j;fgc
+
+
+Cloud computing weeek 2
+
+- what does Azure offer: Limitless innovation. Build intelligent apps and solutions with advanced technology, tools, and services to take your business to the next level. Seamlessly unify your technology to simplify platform management and to deliver innovations efficiently and securely on a trusted cloud.
+
+- Azure provides more than 100 services that enable you to do everything from running your existing applications on virtual machines to exploring new software paradigms, such as intelligent bots and mixed reality
+- Many teams start exploring the cloud by moving their existing applications to virtual machines (VMs) that run in Azure. Migrating your existing apps to VMs is a good start, but the cloud is much more than a different place to run your VMs.
+  
+  Physical infrastructure
+  
+- The physical infrastructure for Azure starts with datacenters. Conceptually, the datacenters are the same as large corporate datacenters. They’re facilities with resources arranged in racks, with dedicated power, cooling, and networking infrastructure.
+
+- As a global cloud provider, Azure has datacenters around the world. However, these individual datacenters aren’t directly accessible. Datacenters are grouped into Azure Regions or Azure Availability Zones that are designed to help you achieve resiliency and reliability for your business-critical workloads.
+
+A region is a geographical area on the planet that contains at least one, but potentially multiple datacenters that are nearby and networked together with a low-latency network.
+
+VMs are an ideal choice when you need:
+
+Total control over the operating system (OS).
+The ability to run custom software.
+To use custom hosting configurations.
+
+Virtual machine scale sets let you create and manage a group of identical, load-balanced VMs. If you simply created multiple VMs with the same purpose, you’d need to ensure they were all configured identically and then set up network routing parameters to ensure efficiency. 
+Virtual machine scale sets let you create and manage a group of identical, load-balanced VMs. If you simply created multiple VMs with the same purpose, you’d need to ensure they were all configured identically and then set up network routing parameters to ensure efficiency. 
+
+Virtual machine availability sets are another tool to help you build a more resilient, highly available environment vailability sets are designed to ensure that VMs stagger updates and have varied power and network connectivity, preventing you from losing all your VMs with a single network or power failure.
+
+Update domain: The update domain groups VMs that can be rebooted at the same time. This allows you to apply updates while knowing that only one update domain grouping will be offline at a time. All of the machines in one update domain will be updated. 
+
+Fault domain: The fault domain groups your VMs by common power source and network switch. By default, an availability set will split your VMs across up to three fault domains.
+
+When to use VMs 
+- During testing and Development
+- running applications in the cloud
+- 
