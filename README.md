@@ -114,4 +114,51 @@ Fault domain: The fault domain groups your VMs by common power source and networ
 When to use VMs 
 - During testing and Development
 - running applications in the cloud
-- 
+
+Azure App service
+App Service enables you to build and host web apps, background jobs, mobile back-ends, and RESTful APIs in the programming language of your choice without managing infrastructure.offers automatic scaling and high availability.  
+With App Service, you can host most common app service styles like:
+
+- Web apps
+- API apps
+- WebJobs
+- Mobile apps
+  App Service handles most of the infrastructure decisions you deal with in hosting web-accessible apps:
+
+- Deployment and management are integrated into the platform.
+- -Endpoints can be secured.
+-Sites can be scaled quickly to handle high traffic loads.
+-jThe built-in load balancing and traffic manager provide high availability.
+
+Web apps 
+- App Service includes full support for hosting web apps by using ASP.NET, ASP.NET Core, Java, Ruby, Node.js, PHP, or Python. 
+  You can choose either Windows or Linux as the host operating system.
+  API apps
+- Much like hosting a website, you can build REST-based web APIs by using your choice of language and framework. You get full --- Swagger support and the ability to package and publish your API in Azure Marketplace. The produced apps can be consumed from 
+  any HTTP- or HTTPS-based client.
+
+Use the Mobile Apps feature of App Service to quickly build a back end for iOS and Android apps. With just a few actions in the Azure portal, you can:
+
+Store mobile app data in a cloud-based SQL database.
+-Authenticate customers against common social providers, such as MSA, Google, Twitter, and Facebook.
+-Send push notifications.
+-Execute custom back-end logic in C# or Node.js.
+
+Azure Virtual Networks 
+- Isolation and segmentation: allows creatation of multiple virtual networks defining private IP address space by using either private network ranges.
+- Internet communications : you cn enable incoming connections from the internet by assigning  publi address to Azure.
+- Communicate between azure resoures:virtual networks  can connect to other Azure resources.
+- Azure EXpressRoute provides a dedicated private connectivity to Azure that doesnt travel over the internt
+- Route Network Traffic: Route tables allow you to dfin ruls about how traffic should be directed.
+- Azure Virtual Desktop is a desktop and application virtualization service that runs on the cloud.
+
+- A virtual private network (VPN) uses an encrypted tunnel within another network. VPNs are typically deployed to connect two or more trusted private networks to one another over an untrusted network (typically the public internet)
+  VPN GATEWAY
+Connect on-premises datacenters to virtual networks through a site-to-site connection.
+Connect individual devices to virtual networks through a point-to-site connection.
+Connect virtual networks to other virtual networks through a network-to-network connection.
+
+VPN gateway, you must specify the type of VPN - either policy-based or route-based. The primary distinction between these two types is how they determine which traffic needs encryption.
+
+- Policy-based VPN gateways specify statically the IP address of packets that should be encrypted through each tunnel. This type of device evaluates every data packet against those sets of IP addresses to choose the tunnel where that packet is going to be sent through.
+- In Route-based gateways, IPSec tunnels are modeled as a network interface or virtual tunnel interface. IP routing (either static routes or dynamic routing protocols) decides which one of these tunnel interfaces to use when sending each packet. Route-based VPNs are the preferred connection method for on-premises devices. 
