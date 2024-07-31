@@ -161,4 +161,27 @@ Connect virtual networks to other virtual networks through a network-to-network 
 VPN gateway, you must specify the type of VPN - either policy-based or route-based. The primary distinction between these two types is how they determine which traffic needs encryption.
 
 - Policy-based VPN gateways specify statically the IP address of packets that should be encrypted through each tunnel. This type of device evaluates every data packet against those sets of IP addresses to choose the tunnel where that packet is going to be sent through.
-- In Route-based gateways, IPSec tunnels are modeled as a network interface or virtual tunnel interface. IP routing (either static routes or dynamic routing protocols) decides which one of these tunnel interfaces to use when sending each packet. Route-based VPNs are the preferred connection method for on-premises devices. 
+- In Route-based gateways, IPSec tunnels are modeled as a network interface or virtual tunnel interface. IP routing (either static routes or dynamic routing protocols) decides which one of these tunnel interfaces to use when sending each packet. Route-based VPNs are the preferred connection method for on-premises devices.
+- Azure ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection, with the help of a connectivity provider. This connection is called an ExpressRoute Circuit.
+- With ExpressRoute, you can establish connections to Microsoft cloud services, such as Microsoft Azure and Microsoft 365. This allows you to connect offices, datacenters, or other facilities to the Microsoft cloud. Each location would have its own ExpressRoute circuit.
+  Benefits
+  Connectivity to Microsoft cloud services across all regions in the geopolitical region.
+Global connectivity to Microsoft services across all regions with the ExpressRoute Global Reach.
+Dynamic routing between your network and Microsoft via Border Gateway Protocol (BGP).
+Built-in redundancy in every peering location for higher reliability.
+
+Express route Connectivity models
+-CloudExchange colocation
+Point-to-point Ethernet connection
+Any-to-any connection
+Directly from ExpressRoute sites
+
+Azure DNS is a hosting service for DNS domains that provides name resolution by using Microsoft Azure infrastructure. By hosting your domains in Azure, you can manage your DNS records using the same credentials, APIs, tools, and billing as your other Azure services.
+benefits of DNS
+Azure DNS leverages the scope and scale of Microsoft Azure to provide numerous benefits, including:
+
+Reliability and performance
+Security
+Ease of Use
+Customizable virtual networks
+Alias records
